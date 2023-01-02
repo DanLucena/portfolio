@@ -8,7 +8,7 @@ export function AboutSection() {
     <div className="max-w-[89.25rem] 2xl:w-9/12 w-11/12 mx-auto flex sm:pl-12 pl-[10px]">
       <div className='lg:w-7/12 w-11/12'>
         <h1 className='text-2xl mb-8'>
-          <span className='text-violet-400'>01. </span>
+          <span className='text-violet-400' id="About">01. </span>
           About Me
         </h1>
         <p className='mb-4 text-neutral-600 dark:text-neutral-400'>Hi! My name is Daniel and I love to code and solve problems, I started to like programming when I was 9 years old and I watched my cousin working with web development, since then I started looking for more about the subject and today I&apos;m studying <span className='text-violet-400'>Computer Cience</span>.</p>
