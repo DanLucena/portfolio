@@ -2,7 +2,7 @@ import { TechList } from "../../atoms/TechList";
 import Image from 'next/image';
 
 export function AboutSection() {
-  const technologies = ['Javascript', 'Typescript', 'VueJS', 'Rails', 'NodeJS', 'Typescript'];
+  const technologies = ['Javascript', 'Typescript', 'VueJS', 'Rails', 'NodeJS', 'Docker'];
 
   return (
     <div className="max-w-[89.25rem] 2xl:w-9/12 w-11/12 mx-auto flex sm:pl-12 pl-[10px]">
