@@ -15,6 +15,7 @@ export const Primary: Story = {
   args: {
     title: 'Dummy Project Card',
     description: 'This is a dummy description for a project card',
-    projectStack: ['Vue 2', 'NodeJS', 'Typescript']
+    projectStack: ['Vue 2', 'NodeJS', 'Typescript'],
+    link: 'https://www.google.com'
   },
 };

@@ -16,7 +16,8 @@ export const Primary: Story = {
       {
         title: 'This is a dummy project',
         description: 'This is a dummy description for a dummy project',
-        projectStack: ['Vue 2', 'NodeJS', 'Typescript']
+        projectStack: ['Vue 2', 'NodeJS', 'Typescript'],
+        link: 'https://www.google.com/'
       }
     ]
   },

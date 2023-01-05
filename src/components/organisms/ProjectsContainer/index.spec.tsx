@@ -7,7 +7,8 @@ describe('Organisms/ProjectsContainer', () => {
       {
         title: 'This is a dummy project tittle',
         description: 'This is a dummy project description for a dummy project',
-        projectStack: ['Vue 2', 'NodeJS', 'Typescript']
+        projectStack: ['Vue 2', 'NodeJS', 'Typescript'],
+        link: 'https://www.google.com'
       }
     ]
 
