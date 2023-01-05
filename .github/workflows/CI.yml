@@ -1,0 +1,15 @@
+name: Testing Pipeline
+
+on: [pull_request]
+
+jobs:
+  Testing:
+    name: Testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install
+      - name: Running tests
+        run: npm run test

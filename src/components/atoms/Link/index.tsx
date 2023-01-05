@@ -10,7 +10,7 @@ export function Link({label, selected = false, summary}: LinkProps) {
   return (
     <span>
       {summary ? <span className="text-sm mr-1 text-violet-400">0{summary}.</span> : null}
-      <a className={['text-sm cursor-pointer font-light dark:hover:text-violet-400 hover:text-violet-400 transition duration-200 ease-in-out', selectedStyle].join(' ')}>{label}</a>
+      <span className={['text-sm cursor-pointer font-light dark:hover:text-violet-400 hover:text-violet-400 transition duration-200 ease-in-out', selectedStyle].join(' ')}>{label}</span>
     </span>
   );
 }

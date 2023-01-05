@@ -3,7 +3,7 @@ import { IoIosArrowUp } from 'react-icons/io';
 import { animateScroll as scroll } from 'react-scroll'
 
 export function ScrollUpButton() {
-  const [hidden, setHidden] = useState('');
+  const [hidden, setHidden] = useState('-bottom-12');
 
   useEffect(() => {
     window.addEventListener("scroll", setVisibility);

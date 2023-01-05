@@ -22,7 +22,7 @@ export function ExperienceCard({ experienceDate, experienceDescription, experien
         <div className='max-w-[32rem]'>
           <ExperienceRoleTitle role={experienceRole.role} company={experienceRole.company} />
           <ExperienceDescription description={experienceDescription.description} />
-          <ExperienceStack stack={experienceStack.stack}/>
+          {experienceStack.stack.length ? <ExperienceStack stack={experienceStack.stack}/> : null}
         </div>
       </div>
     </>
