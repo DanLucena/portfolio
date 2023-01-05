@@ -15,7 +15,7 @@ export function ProjectsContainer({projects}: ProjectsContainerProps) {
         <div className='justify-center 2xl:justify-start flex-row flex w-[96%] gap-3 flex-wrap mx-auto'>
           {
             projects.map((item, index) => {
-              return <ProjectCard key={index} description={item.description} title={item.title} projectStack={item.projectStack}/>
+              return <ProjectCard key={index} description={item.description} title={item.title} projectStack={item.projectStack} link={item.link}/>
             })
           }
         </div>
