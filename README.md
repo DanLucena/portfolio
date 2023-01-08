@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hello Everyone 👋 !
 
-## Getting Started
+Welcome to my portfolio, with the development of this small project I sought to improve some development techniques and take the opportunity to show some of the knowledge I acquired throughout my learning process on a website.
 
-First, run the development server:
+## Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+To build the application, the NextJS framework was used and for the styling part, the tailwind library was used.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For the architecture, Atomic Design was used, which seeks to apply a system similar to that of an organism where we have the smallest possible parts that are **atoms** and using these parts we can create larger parts such as **molecules** and the junction of this other part creates **organisms**. This makes it easy to reuse components. In addition, the storybook library was also used for the documentation of the components.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+And to have a little more reliability in the functioning of the code, automated tests were made for each component.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+CI configured so that every time a new PR is opened, run all the tests and ensure that there was no regression and CD using Vercel to make a new deployment as the changes are merged into the main branch.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## How to run
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run the project just follow the next steps.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Clone the repository
+- Run yarn install
+- Run `yarn dev` to run development environment
+- Run `yarn storybook` to run storybook documentation
+- Run `yarn test` to run the test suites.
